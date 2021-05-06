@@ -14,10 +14,7 @@
     .technology-container {
         display: list-item;
     }
-    .technology {
-        background: 
-        #000529;
-    }
+
     .technology-text {
         bottom: 6px;
     }
@@ -53,6 +50,13 @@
     }
 }
 
+
+@media (max-width: 1366px) {
+    .technology {
+        background: 
+        #000529 !important;
+    }
+}
 /* Mobile and Tablet */
 @media (max-width: 1023px)  {
     .header-logo {
