@@ -405,13 +405,7 @@
     padding-top: 20px;
     margin-bottom: 40px;
 }
-.channel-left__img  {
-   position: relative;
-   padding-top: 50%;
-   width: 100%;
-   background: url('/assest/img/channel.jpg') no-repeat center;
-   background-size: cover;
-}
+
 
 .channel-left__item {
     background: linear-gradient(180deg,transparent,rgba(0,0,0,.6));
@@ -454,14 +448,6 @@
     font-weight: 300;
 }
 
-.channel-right__img {
-    position: relative;
-    padding-top: 100%;
-    max-width: 100%;
-    height: 100%;
-    background:url('/assest/img/channel1.jpg') no-repeat center;
-    background-size: cover;
-}
 
 .channel-right__link {
     text-decoration: none;
@@ -881,12 +867,6 @@
 
 /* Begin - technology */
 
-.technology {
-   background-image: url('/assest/img/bg-fullpage.png');
-   background-repeat: no-repeat;
-   margin-bottom: 40px;
-}
-
 .technology span {
     color: white;
 }
@@ -1202,10 +1182,14 @@
     line-height: 4rem;
 }
 
+.btn a:hover {
+    color: var(--text-hover);
+}
+
 .btn::after {
     content: "";
     position: absolute;
-    background: url('/assest/img/download.png');
+    background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAygAAAACCAYAAACzK/g8AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAABJSURBVHgB7cDBDUAwGEDhpyJxsYYZJA5iDTOzhTHwu3SFJm3yvm7YIpAkqVExwXNQjXRCf6Hsm+Hdkdq3rDDeqLyEJEmSJFXiB6RBCgc2HnMkAAAAAElFTkSuQmCC');
     bottom: -30px;
     left: 0;
     width: 100%;
