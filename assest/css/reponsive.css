@@ -409,6 +409,9 @@
     .channel-right__link {
         font-size: 1.8rem;
     }
+    .footer-icon__desc {
+        margin-left: 10px;
+    }
 }
 
 @media (max-width: 320px) {
@@ -455,6 +458,9 @@
     .technology-apple {
         padding: 40px 7px 24px 0;
     }
+    .header-menu__name {
+        padding: 0 6px;
+    }
 }
 
 
@@ -465,6 +471,18 @@
 
     .technology-content {
         margin-left: 10px;
+    }
+    .footer-container {
+        margin: 0;
+    }
+    .footer-icon {
+        padding: 5px;
+    }
+    .footer-icon__fanpage {
+        margin-left: 26px;
+    }
+    .text-heading__link {
+        font-size: 2rem;
     }
 
 }
