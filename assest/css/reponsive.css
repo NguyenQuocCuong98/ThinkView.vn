@@ -328,7 +328,7 @@
     }
 
     .technology-scroll {
-        top: 63px;
+        top: 35px;
         width: 105%;
     }
 
@@ -388,6 +388,27 @@
     }
 
 
+    .trending-item {
+        margin-left: 15px;
+    }
+
+}
+@media (max-width: 360px)  {
+    .hide-on-mobile-360 {
+        display: none;
+    }
+    .technology-sub {
+        margin-left: 20px;
+    }
+
+    .technology-content {
+        margin-left: 21px;
+    }
+
+    .channel-left__link,
+    .channel-right__link {
+        font-size: 1.8rem;
+    }
 }
 
 @media (max-width: 320px) {
@@ -441,9 +462,11 @@
     .hide-one-mobile-maxlow {
         display: none;
     }
+
     .technology-content {
         margin-left: 10px;
     }
+
 }
 @media (max-width: 260px) {
    .header-menu__name {
