@@ -22,7 +22,7 @@ html {
 }
 
 .my-app {
-    overflow: hidden; 
+    overflow: hidden !important; 
 }
 
 

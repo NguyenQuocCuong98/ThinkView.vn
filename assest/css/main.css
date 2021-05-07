@@ -279,7 +279,7 @@
 
 .nav__overlay {
     position: fixed;
-    top: 10%;
+    top: 13%;
     right: 0;
     bottom: 0;
     left: 0;
@@ -521,6 +521,7 @@
     height: 22px;
     background-color: rgb(0, 230, 30);
     opacity: 0.7;
+    z-index: -10;
 }
 
 
@@ -869,6 +870,7 @@
 
 .technology span {
     color: white;
+    z-index: 9999;
 }
 
 .technology-container {
@@ -881,8 +883,9 @@
 }
 
 
+
+.technology-apple,
 .technology-item {
-    top: 0;
     padding: 40px 40px 40px 0;
 }
 
@@ -897,6 +900,7 @@
 
 .technology-decs {
     position: relative;
+    height: 100%;
 }
 .technology-decs__img {
     width: 100%;
@@ -904,7 +908,7 @@
 
 .technology-text {
     position: absolute;
-    bottom: 22px;
+    bottom: 5px;
     background: linear-gradient(180deg,transparent,rgba(0,0,0,.6));
     padding: 40px 24px 24px;
     width: 100%;
@@ -1055,6 +1059,7 @@
     height: 22px;
     background-color: #053fff;
     opacity: 0.8;
+    z-index: -10;
 }
 
 /* END - Technology */
@@ -1093,18 +1098,22 @@
     top: 0;
 }
 
+.apple,
 .ssd-sub-container,
 .ssd-hdd {
     margin-top: 30px;
 }
 
+
+.apple-sub,
+.apple-detail,
 .ssd-sub-item,
 .ssd-text-container,
 .ssd-list-item,
 .ssd-sub-container__detail,
 .ssd-sub {
     display: flex;
-    width: 385px;
+    width: 100%;
     margin-top: 20px;
     padding-bottom: 20px;
     border-bottom: 1px solid #eee; 
@@ -1116,40 +1125,51 @@
 
 .ssd-detail {
    display: flex;
-   width: 385px;
+   width: 100%;
    padding-bottom: 20px;
    border-bottom: 1px solid #eee;
 }
 
+
+.apple-detail__img,
 .ssd-detail__img {
    width: 106px;
 }
 
+.apple-container,
 .ssd-container {
     margin-left: 20px;
 }
 
+
+.apple-detail__item,
 .ssd-detail__item {
     margin-bottom: 8px;
 }
 
+
+.apple-detail__link,
 .ssd-detail__link {
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: var(--while-color);
     font-weight: 500;
     line-height: 2.2rem;
 }
 
+
+.apple-date,
 .ssd-date {
     display: flex;
 }
 
+.apple-date__icon,
 .ssd-date__icon {
     color: #fff;
     opacity: 0.6;
 }
 
+.apple-date__link,
 .ssd-date__link {
     margin-left: 8px;
     text-decoration: none;
@@ -1158,6 +1178,7 @@
     font-weight: 500;
 }
 
+.apple-date__hours,
 .ssd-date__hours {
     margin-left: 8px;
     color: var(--while-color);
