@@ -412,6 +412,18 @@
     .footer-icon__desc {
         margin-left: 10px;
     }
+    .padding-left {
+        padding-left: 10px;
+    }
+    .padding-right {
+        padding-right: 5px;
+    }
+    .c-6 {
+        flex: 0 0 43%;
+    }
+    .text-heading__link {
+        font-size: 2rem;
+    }
 }
 
 @media (max-width: 320px) {
@@ -480,9 +492,6 @@
     }
     .footer-icon__fanpage {
         margin-left: 26px;
-    }
-    .text-heading__link {
-        font-size: 2rem;
     }
 
 }
