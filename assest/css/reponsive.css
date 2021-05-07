@@ -436,6 +436,15 @@
     }
 }
 
+
+@media (max-width: 280px)  {
+    .hide-one-mobile-maxlow {
+        display: none;
+    }
+    .technology-content {
+        margin-left: 10px;
+    }
+}
 @media (max-width: 260px) {
    .header-menu__name {
        padding: 0 9px;
